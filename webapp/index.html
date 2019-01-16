@@ -4,12 +4,48 @@
         
         <!--  normalize.css   -->
         <link rel="stylesheet" type="text/css" href="normalize.css">
+        
+        <!-- Custom Style -->    
+        <link rel="stylesheet" type="text/css" href="styles.css">
     
     </head>
     <body>
     
         <div id="container">        
             <h1> Plot the Globe! </h1>     
+            
+            <div id="coord_calculator">
+            
+                <form>
+                    <label>
+                    Pick the Lat/Lon format<br>
+                        <select id="latlon_format">
+                            <option disabled selected value="0"> -- Choose an option -- </option>
+                            <option value="decdeg"> Decimal Degrees </option>
+                            <option value="decrad"> Decimal Radians </option>
+                            <option value="semicirc"> Semicircles </option>
+                            <option value="dms"> Degrees, Minutes, Seconds </option>
+                            <option value="ddm"> Degrees, Decimal Minutes </option>         
+                        </select>
+                    </label>
+                    <label>
+                    Lat
+                        <input type="text" id="lat_dec">
+                    </label>
+                    <label>
+                    Lon
+                        <input type="text" id="lon_dec">
+                    </label>
+                    
+                    <button type="button" id="calculate">Calculate!</button>
+                </form>
+            
+            </div><!-- coord_calculator -->
+            
+            <div id="conversion_coords">
+                
+            </div><!-- conversion_coords -->
+            
         </div> <!-- container -->
     
         
