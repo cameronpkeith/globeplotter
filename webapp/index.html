@@ -18,21 +18,20 @@
             
                 <form>
                     <label>
-                    Pick the Lat/Lon format<br>
+                        <div id="picker">Pick the Lat/Lon format<br></div>
                         <select id="latlon_format">
                             <option disabled selected value="0"> -- Choose an option -- </option>
                             <option value="decdeg"> Decimal Degrees </option>
                             <option value="decrad"> Decimal Radians </option>
-                            <option value="semicirc"> Semicircles </option>
                             <option value="dms"> Degrees, Minutes, Seconds </option>
                             <option value="ddm"> Degrees, Decimal Minutes </option>         
                         </select>
                     </label>
-                    <label>
+                    <label class="ll_lbl">
                     Lat
                         <input type="text" id="lat_dec">
                     </label>
-                    <label>
+                    <label class="ll_lbl">
                     Lon
                         <input type="text" id="lon_dec">
                     </label>

@@ -1,0 +1,41 @@
+/* styles.css */
+
+body{
+    background: #333 url('img/globes.jpg') center center no-repeat;
+    background-size: cover;
+    color: #532827;
+}
+
+#container{
+    width: 1000px;
+    margin: 40px auto auto 40px;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url('img/paper.png') top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #7a4e2d;
+}
+
+#picker{
+    text-align: center;
+    
+}
+
+form select{
+    display: block;
+    margin: 15px auto 15px;
+}
+
+
+.ll_lbl{
+    display: block;
+}
